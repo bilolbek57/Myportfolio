@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilolbek - Web Developer Portfolio</title>
+    <meta name="description" content="Professional web developer portfolio showcasing skills in HTML, CSS, JavaScript, and React.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">Bilolbek</a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Bilolbek</span>
+                </h1>
+                <p class="hero-subtitle">Web Developer</p>
+                <p class="hero-description">
+                    Passionate about creating beautiful, responsive, and user-friendly web applications
+                    using modern technologies like React, JavaScript, and CSS.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" class="scroll-down">
+                    <span class="scroll-arrow">↓</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <p class="about-text">
+                    I'm a dedicated web developer with a passion for crafting exceptional digital experiences.
+                    With expertise in HTML, CSS, JavaScript, and React.js, I transform ideas into elegant,
+                    functional websites and applications.
+                </p>
+                <p class="about-text secondary">
+                    I love staying up-to-date with the latest web technologies and best practices,
+                    constantly learning and improving my skills to deliver the best solutions for every project.
+                    Whether it's building responsive layouts, implementing complex features, or optimizing performance,
+                    I'm committed to excellence in every line of code.
+                </p>
+            </div>
+
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">💻</div>
+                    <h3 class="highlight-title">Clean Code</h3>
+                    <p class="highlight-description">Writing maintainable and scalable code following best practices</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">🎨</div>
+                    <h3 class="highlight-title">Modern Design</h3>
+                    <p class="highlight-description">Creating beautiful, intuitive user interfaces with attention to detail</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">⚡</div>
+                    <h3 class="highlight-title">Performance</h3>
+                    <p class="highlight-description">Building fast, optimized applications for the best user experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Technologies and tools I use to bring ideas to life</p>
+            </div>
+
+            <div class="skills-content">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">HTML</h3>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">CSS</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">React.js</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Responsive Design</h3>
+                        <span class="skill-percentage">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Git & GitHub</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">Git & GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">A selection of my recent work and personal projects</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A fully responsive e-commerce website with product listings, shopping cart, 
+                            and checkout functionality. Built with React and modern CSS techniques.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm" disabled>GitHub</button>
+                            <button class="btn btn-sm btn-outline" disabled>Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop" alt="Weather Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">
+                            Interactive weather application displaying real-time weather data with beautiful UI. 
+                            Features location search and 5-day forecasts.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm" disabled>GitHub</button>
+                            <button class="btn btn-sm btn-outline" disabled>Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            Productivity app for managing tasks and projects with drag-and-drop functionality, 
+                            categories, and priority levels.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm" disabled>GitHub</button>
+                            <button class="btn btn-sm btn-outline" disabled>Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                            Modern, responsive portfolio website showcasing web development projects 
+                            with smooth animations and dark mode support.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm" disabled>GitHub</button>
+                            <button class="btn btn-sm btn-outline" disabled>Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="projects-note">Note: Update these with your actual projects and add live links when available</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3 class="contact-title">Email</h3>
+                    <a href="mailto:bilolbek421@gmail.com" class="contact-link">bilolbek421@gmail.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3 class="contact-title">Phone</h3>
+                    <a href="tel:+998938155857" class="contact-link">+998 93 815 5857</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">✈️</div>
+                    <h3 class="contact-title">Telegram</h3>
+                    <a href="https://t.me/findbilolbek" target="_blank" class="contact-link">@findbilolbek</a>
+                </div>
+            </div>
+
+            <div class="contact-cta">
+                <p class="contact-cta-text">Ready to start a project together?</p>
+                <a href="mailto:bilolbek421@gmail.com" class="btn btn-primary btn-lg">Send Me an Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Built with ❤️ by Bilolbek</p>
+            <p class="footer-copyright">© 2025 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
