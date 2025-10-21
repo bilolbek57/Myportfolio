@@ -780,3 +780,58 @@ body.dark-mode .moon-icon {
         grid-template-columns: 1fr;
     }
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-description {
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.project-tags {
+  margin-bottom: 20px;
+}
+
+.project-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #9c6bff;
+  color: #9c6bff;
+  background: transparent;
+  padding: 6px 16px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #9c6bff;
+  color: #fff;
+}
