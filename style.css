@@ -16,7 +16,7 @@
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    
+    --tittle-black: black;    
     /* Typography */
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
@@ -39,11 +39,12 @@ body.dark-mode {
     --text-primary: #F9FAFB;
     --text-secondary: #D1D5DB;
     --text-tertiary: #9CA3AF;
-    
-    --border-color: #374151;
+     --tittle-black: rgb(30, 79, 96);    
+    --border-color: #0d1016;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --section-project-p: rgb(47, 48, 102);
 }
 
 /* ===== RESET & BASE ===== */
@@ -103,6 +104,7 @@ button {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+
 }
 
 .title-underline {
@@ -583,12 +585,14 @@ body.dark-mode .moon-icon {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
+    color: var(--tittle-black);
 }
 
 .project-description {
     color: var(--text-secondary);
     margin-bottom: 1rem;
     line-height: 1.6;
+    color: var(--section-project-p);
 }
 
 .project-tags {
