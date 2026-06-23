@@ -519,7 +519,7 @@ function startTyping() {
     const nameInput = document.getElementById("form-name");
     const emailInput = document.getElementById("form-email");
     const msgInput = document.getElementById("form-message");
-    if (nameInput) nameInput.placeholder = lang === "ru" ? "Иван Иванов" : "John Doe";
+    if (nameInput) nameInput.placeholder = lang === "ru" ? "Полное имя" : "Full name";
     if (emailInput) emailInput.placeholder = lang === "ru" ? "ivan@example.com" : "john@example.com";
     if (msgInput) msgInput.placeholder = lang === "ru" ? "Давайте создадим что-то вместе..." : "Let's build something together...";
   }
