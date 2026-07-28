@@ -69,7 +69,8 @@ const translations = {
     "contact.send": "Send Message",
     "contact.success": "Message sent! I'll get back to you soon.",
     "footer.copy": "© 2026 Bilolbek — Designed with passion",
-    "typing": ["HTML Developer", "Creative Coder", "Frontend Developer", "UI Designer"]
+    "typing": ["HTML Developer", "Creative Coder", "Frontend Developer", "UI Designer"],
+    "projects.p4_desc": ["A premium IELTS Vocabulary website featuring interactive learning, advanced word collections, smart quizzes, smooth animations, and a modern, minimalist UI."]
   },
   ru: {
     "nav.about": "Обо мне",
@@ -134,7 +135,8 @@ const translations = {
     "contact.send": "Отправить",
     "contact.success": "Сообщение отправлено! Скоро свяжусь с вами.",
     "footer.copy": "© 2026 Bilolbek — Создано с душой",
-    "typing": ["HTML-разработчик", "Творческий кодер", "Фронтенд-разработчик", "UI-дизайнер"]
+    "typing": ["HTML-разработчик", "Творческий кодер", "Фронтенд-разработчик", "UI-дизайнер"],
+    "projects.p4_desc":["Премиальный сайт для изучения словаря IELTS с современным дизайном и интерактивным обучением."]
   }
 };
 
@@ -668,9 +670,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
-// ==========================================
-// INIT ON DOM READY
-// ==========================================
-document.addEventListener("DOMContentLoaded", () => {
+
+document.addEventListener("DOMContentLoaded", ()=>{
   updateActiveNav();
-});
+})
